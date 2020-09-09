@@ -64,7 +64,7 @@ server <- function(input, output, session) {
       title = "About this tool",
       tags$li("This tool utilises a list of Gene Ontology terms collected from the Gene Ontology Consortium. The list was last updated here on 10 September, 2020"), br(),
       tags$li("For more information on the GO Consortium or gene ontology terms visit www.geneontology.org. This webapp is unaffiliated with the GO Consortium."), br(),
-      tags$li("The code for this webapp as well as the data file utilised is housed at https://github.com/richardbrowne/GO_Search"), br(),
+      tags$li("The code for this webapp as well as the data file utilised is housed at https://github.com/richardbrowne/GOSearch"), br(),
       easyClose = TRUE
     ))
   })
